@@ -7,9 +7,9 @@ angular
 
 function config($routeProvider) {
     $routeProvider
-        .when('/avengers', {
-            templateUrl: 'avengers.html',
-            controller: 'Avengers',
+        .when('/controlle', {
+            templateUrl: 'sample.html',
+            controller: 'Sample',
             controllerAs: 'vm'
         });
 }
